@@ -1,0 +1,39 @@
+.col-1 {width : 48px;}
+.col-2 {width : 116px;}
+.col-3 {width : 184px;}
+.col-4 {width : 252px;}
+.col-5 {width : 320px;}
+.col-6 {width : 388px;}
+.col-7 {width : 458px;}
+.col-8 {width : 524px;}
+.col-9 {width : 592px;}
+.col-10 {width : 660px;}
+.col-11 {width : 728px;}
+.col-12 {width : 796px;}
+.col-13 {width : 864px;}
+.col-14 {width : 932px;}
+.col-15 {width : 999px;}
+.col-16 {width : 1066px;}
+.col-17 {width : 1133px;}
+.col-18 {width : 1200px;}
+
+.col-offset-1 {margin-left : 68px;}
+.col-offset-2 {margin-left : 136px;}
+.col-offset-3 {margin-left : 204px;}
+.col-offset-4 {margin-left : 272px;}
+.col-offset-5 {margin-left: 340px;}
+.col-offset-6 {margin-left : 408px;}
+.col-offset-7 {margin-left : 476px;}
+.col-offset-8 {margin-left : 544px;}
+.col-offset-9 {margin-left: 612px;}
+.col-offset-10 {margin-left : 680px;}
+.col-offset-11 {margin-left : 748px;}
+.col-offset-12 {margin-left: 816px;}
+.col-offset-13 {margin-left: 884px;}
+.col-offset-14 {margin-left : 952px;}
+.col-offset-15 {margin-left : 1019px;}
+.col-offset-16 {margin-left : 1086px;}
+.col-offset-17 {margin-left : 1153px;}
+
+div[class^="col-"] {float: left;}
+.col-breath {padding-right :20px;}
