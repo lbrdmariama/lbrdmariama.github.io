@@ -4,7 +4,7 @@ body {
 	background-image: url("../images/bg/03_pattern_rose_fond_blanc_body.png");
 	background-attachment: fixed;
     font-family: "Questrial", Helvetica, Arial, sans-serif;
-    font-size : 12px;
+    font-size : 14px;
 	color : #87654f;}
 
 
@@ -119,6 +119,7 @@ nav {
 
 
 
+
 .oaxatu, .bestiole, .grande-ourse, .croix-rouge, .mouvement {
 	background-color : rgba(255, 255, 255, 0.5);
     line-height : 20px;
@@ -224,7 +225,7 @@ p {
 	margin-bottom :60px;}
 .highlight-ourse {
 	height : 100px;
-	margin-top : 550px;
+	margin-top : 600px;
 	z-index : -10;
 	position :absolute;
 	width: 100%;}
@@ -257,8 +258,7 @@ footer p {
 	font-size : 24px;
 	color : white;}
 .mail {
-	font-size :36px;
-	text-decoration: underline;}
+	font-size :36px;}
 footer a {
 	text-transform: uppercase;
 	font-size : 12px;
@@ -345,6 +345,9 @@ h3 {
 	color : white;
 	font-size : 20px;
 	padding : 0;}
+.a-propos a {
+	color : white !important;
+}
 .spec {
 	text-transform: uppercase;
 	letter-spacing: 2px;}
