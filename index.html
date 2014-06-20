@@ -6,9 +6,42 @@
         <link type="text/css" rel="stylesheet" href="stylesheets/main.css"> 
         <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
         <script src="javascripts/libs/jquery-1.11.1.min.js" type="text/javascript"></script>
-        <script src="javascripts/scrollTo.js" type="text/javascript"></script>
+        <script src="javascripts/scripts.js" type="text/javascript"></script>
     </head>    
     <body>
+        <section class="a-propos hidden" id="overlay-a-propos">
+            <div class="container">
+                <div class="icons-a-propos"></div> 
+            </div>
+            <div class="logo-a-propos"></div>
+            <div class="container">
+                <div class="row">
+                    <a><img src="images/bg/icons/02_close_a_propos.png" class="close" alt="Fermer le à propos" id="close-overlay"></a>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="row">
+                    <div class="col-5 col-offset-1">
+                        <h2>Bonjour</h2>
+                        <p> 
+                            Je m’appelle Mariama Laborde, j’ai 18 ans et je suis étudiante en BTS design graphique en option médias imprimés à Marseille. Je porte beaucoup d'intérêt au graphisme, à l'illustration, à l'art. Mais je suis aussi passionnée par la musique, les films, les jeux vidéos, qui sont mes sources d'inspiration principales. Pour une question, ou tout simplement un coucou, n'hésitez pas à m'écrire.
+                        </p>
+                    </div>
+                    <div class="col-offset-6 push">
+                        <p>
+                            <span class="spec">Mail :</span> lbrdmariama@gmail.com
+                            <br>
+                            <span class="spec">Tél.</span> 06 15 80 06 84
+                        </p>
+                        <h3>Suivez-moi sur :</h3>
+                        <ul>
+                            <li>Pinterest</li>
+                            <li>Deviantart</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
         <section class="introduction" id="top">
             <div class="icons-couleur"></div> 
         </section>
@@ -25,7 +58,7 @@
                     <li><a class="scroll" data-target="croix-rouge">Croix-Rouge</a></li>
                     <li><a class="scroll" data-target="mouvement">Mouvement</a></li>
                 </ul>
-                <li><a href="#" data-target="overlay">À propos</a></li>
+                <li><a href="#" id="overlay">À propos</a></li>
                 <li><a class="scroll" data-target="top">Haut</a></li>
             </ul>   
         </nav>
@@ -400,7 +433,7 @@
             <div class="high-breath"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-3 col-offset-7 push">
+                    <div class="col-3 col-offset-7">
                         <div class="logo-footer">
                         </div>
                     </div>
@@ -416,32 +449,8 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
+            <div class="clearfix"></div>
         </footer>
-        <section class="a-propos">
-            <div class="container">
-                <div class="row">
-                    <a><img src="images/bg/icons/02_close_a_propos.png" alt="Fermer le à propos"></a>
-                <div class="row">
-                    <div class="col-5 col-offset-1">
-                        <h2>Bonjour</h2>
-                        <p> 
-                            Je m’appelle Mariama Laborde, j’ai 18 ans et je suis étudiante en BTS design graphique en option médias imprimés à Marseille. Je porte beaucoup d'intérêt au graphisme, à l'illustration, à l'art. Mais je suis aussi passionnée par la musique, les films, les jeux vidéos, qui sont mes sources d'inspiration principales. Pour une question, ou tout simplement un coucou, n'hésitez pas à m'écrire.
-                        </p>
-                    </div>
-                    <div class="logo-a-propos"></div>
-                    <p>
-                        <span class="spec">Mail :</span> lbrdmariama@gmail.com
-                        <br>
-                        <span class="spec">Tél.</span> 06 15 80 06 84
-                    </p>
-                    <h3>Suivez-moi sur :</h3>
-                    <ul>
-                        <li>Pinterest</li>
-                        <li>Deviantart</li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </section>
+        <div class="clearfix"></div>
     </body>
 </html>         
